@@ -1,4 +1,4 @@
-module cloudfront-origin-switch
+module cloudfront-switch-origin
 
 go 1.21.7
 

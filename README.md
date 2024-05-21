@@ -1,4 +1,4 @@
-# cloudfront-origin-switch
+# cloudfront-switch-origin
 A simple tool to switch CloudFront origin
 
 ## Usage
@@ -7,7 +7,7 @@ A simple tool to switch CloudFront origin
 A simple tool to switch origins on CloudFront
 
 Usage:
-  cloudfront-origin-switch [command]
+  cloudfront-switch-origin [command]
 
 Available Commands:
   completion  Generate the autocompletion script for the specified shell
@@ -16,10 +16,10 @@ Available Commands:
   switch      Switch origins on CloudFront distribution
 
 Flags:
-  -h, --help     help for cloudfront-origin-switch
+  -h, --help     help for cloudfront-switch-origin
   -t, --toggle   Help message for toggle
 
-Use "cloudfront-origin-switch [command] --help" for more information about a command.
+Use "cloudfront-switch-origin [command] --help" for more information about a command.
 ```
 
 ## Examples
@@ -27,17 +27,17 @@ Use "cloudfront-origin-switch [command] --help" for more information about a com
 Listing distributions
 
 ```sh
-cloudfront-origin-switch list distributions
+cloudfront-switch-origin list distributions
 ```
 
 Listing origins
 
 ```sh
-cloudfront-origin-switch list origins --id E1HSDX49KSFRDA
+cloudfront-switch-origin list origins --id E1HSDX49KSFRDA
 ```
 
 Switching origin traffic
 
 ```sh
-cloudfront-origin-switch switch --id E1B4MZC46KTIDU --from production --to fallback
+cloudfront-switch-origin switch --id E1B4MZC46KTIDU --from production --to fallback
 ```

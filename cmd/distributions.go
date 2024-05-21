@@ -18,7 +18,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 package cmd
 
 import (
-	"cloudfront-origin-switch/internal"
+	"cloudfront-switch-origin/internal"
 
 	"github.com/spf13/cobra"
 )
